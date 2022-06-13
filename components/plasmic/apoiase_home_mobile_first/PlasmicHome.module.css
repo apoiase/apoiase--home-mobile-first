@@ -196,7 +196,7 @@
   left: auto;
   top: auto;
   overflow: visible;
-  display: flex;
+  display: none;
 }
 .shadow {
   box-shadow: 0px 2px 10px 0px var(--token-x0mpXkouNCU4H3);
@@ -222,7 +222,7 @@
   left: auto;
   z-index: 1000;
   opacity: var(--token-4AXqt7kR1QhgG6);
-  display: flex;
+  display: none;
 }
 .mainContent {
   display: flex;
