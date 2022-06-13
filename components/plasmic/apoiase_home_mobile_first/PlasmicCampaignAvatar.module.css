@@ -1,0 +1,10 @@
+.campaignAvatar {
+  background: url("/plasmic/apoiase_home_mobile_first/images/campaignAvatar.jpeg") top 50% left 50% / cover repeat;
+  display: block;
+  flex-grow: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}

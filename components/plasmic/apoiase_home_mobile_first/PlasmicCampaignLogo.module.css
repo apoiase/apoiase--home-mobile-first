@@ -1,0 +1,16 @@
+.campaignLogo {
+  display: flex;
+  position: relative;
+}
+.campaignType {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 140px;
+  height: 50px;
+  flex-shrink: 0;
+  display: block;
+}
+.campaignTypepontual {
+  display: block;
+}

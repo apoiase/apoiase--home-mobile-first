@@ -1,0 +1,204 @@
+.header {
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  background: var(--token-7_O_N4sXKmy);
+  height: auto;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  position: relative;
+  min-width: 0;
+  padding: var(--token--e785z_OTc7);
+}
+.header > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 0;
+  margin-left: calc(0px - var(--token-KQ-dKV9txCW));
+  width: calc(100% + var(--token-KQ-dKV9txCW));
+}
+.header > :global(.__wab_flex-container) > *,
+.header > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.header > :global(.__wab_flex-container) > picture > img,
+.header
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: var(--token-KQ-dKV9txCW);
+}
+.headersize_medium {
+  padding-top: var(--token-neOaSsVoLGQ);
+  padding-bottom: var(--token-neOaSsVoLGQ);
+}
+.headersize_small {
+  padding-top: var(--token-_qqrXgP9449);
+  padding-bottom: var(--token-_qqrXgP9449);
+}
+.navContainer {
+  display: flex;
+  position: sticky;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: var(--token-x2RMKH3QNGq);
+  height: auto;
+  min-width: 0;
+}
+.nav___3UbhD {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  height: auto;
+}
+.nav___3UbhD > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - var(--token--e785z_OTc7));
+  width: calc(100% + var(--token--e785z_OTc7));
+}
+.nav___3UbhD > :global(.__wab_flex-container) > *,
+.nav___3UbhD > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.nav___3UbhD > :global(.__wab_flex-container) > picture > img,
+.nav___3UbhD
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: var(--token--e785z_OTc7);
+}
+.link___8OWxt {
+  position: relative;
+  display: flex;
+}
+.brandLogo:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.link__hwSEc {
+  position: relative;
+  display: flex;
+}
+.svg__kvtbd {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  display: block;
+}
+.endIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  display: block;
+}
+.navDropdown:global(.__wab_instance) {
+  max-width: 100%;
+  position: absolute;
+  left: -130px;
+  top: 50px;
+  display: none;
+}
+.navDropdownopennedModalities:global(.__wab_instance) {
+  display: flex;
+}
+.link__ss9F9 {
+  position: relative;
+  display: flex;
+}
+.svg__wviq8 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  display: block;
+}
+.svg__rmU5D {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  display: block;
+}
+.nav___0Zqbs {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+}
+.nav___0Zqbs > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 24px);
+  width: calc(100% + 24px);
+}
+.nav___0Zqbs > :global(.__wab_flex-container) > *,
+.nav___0Zqbs > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.nav___0Zqbs > :global(.__wab_flex-container) > picture > img,
+.nav___0Zqbs
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 24px;
+}
+.link__u2Lt1 {
+  position: relative;
+  display: flex;
+}
+.svg__ghX2G {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  display: block;
+}
+.svg__u68Md {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  display: block;
+}
+.button:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  display: none;
+}
+.buttonwithCta:global(.__wab_instance) {
+  display: flex;
+}
+.svg__wy6L {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__t6Z5K {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.apoiaseIconBurguer {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: var(--token-znh0DtJNV5S);
+  height: 1em;
+  left: auto;
+  top: auto;
+  width: 1em;
+  flex-shrink: 0;
+  display: none;
+}

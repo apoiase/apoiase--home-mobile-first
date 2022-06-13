@@ -1,0 +1,179 @@
+.accordionItem {
+  flex-direction: column;
+  box-shadow: 0px 1px 3px 0px var(--token-x0mpXkouNCU4H3);
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  background: rgba(255, 255, 255, 1);
+  height: auto;
+  display: flex;
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  min-width: 0;
+  border-radius: 8px;
+  padding: 32px var(--token-Id9x7t3Vbv60Ub) 0px;
+  border: 1px solid var(--token-x0mpXkouNCU4H3);
+}
+.accordionItem > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 0;
+  margin-top: calc(0px - var(--token-XqTvnabdiqSxZa));
+  height: calc(100% + var(--token-XqTvnabdiqSxZa));
+}
+.accordionItem > :global(.__wab_flex-container) > *,
+.accordionItem > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.accordionItem > :global(.__wab_flex-container) > picture > img,
+.accordionItem
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: var(--token-XqTvnabdiqSxZa);
+}
+.accordionItemopenned {
+  box-shadow: 0px 4px 8px 4px var(--token-x0mpXkouNCU4H3);
+  width: 100%;
+  padding-bottom: var(--token-XqTvnabdiqSxZa);
+  max-height: none;
+  min-width: 0;
+  border: 1px solid var(--token-x0mpXkouNCU4H3);
+}
+.accordionItemopenned > :global(.__wab_flex-container) {
+  min-width: 0;
+}
+.accordionItem:hover {
+  box-shadow: 0px 4px 8px 4px var(--token-x0mpXkouNCU4H3);
+}
+.accordionTitle {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.accordionTitle > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-width: 0;
+  margin-left: calc(0px - var(--token-Id9x7t3Vbv60Ub));
+  width: calc(100% + var(--token-Id9x7t3Vbv60Ub));
+}
+.accordionTitle > :global(.__wab_flex-container) > *,
+.accordionTitle > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.accordionTitle > :global(.__wab_flex-container) > picture > img,
+.accordionTitle
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: var(--token-Id9x7t3Vbv60Ub);
+}
+.apoiaseIconPlus {
+  object-fit: cover;
+  max-width: 100%;
+  color: #db2328;
+  width: 28px;
+  height: 28px;
+  display: block;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.h5 {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  align-self: center;
+}
+.slotTargetTitle {
+  font-weight: 400;
+}
+.slotTargetTitleopenned {
+  font-weight: 700;
+}
+.accordionDescription {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  left: auto;
+  top: auto;
+  z-index: 1;
+  margin-top: calc(0px + var(--token-XqTvnabdiqSxZa)) !important;
+  transform: none;
+  padding-left: var(--token-W-6SH9_akvPZJj);
+  min-width: 0;
+}
+.accordionDescriptionopenned {
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  left: auto;
+  top: auto;
+  transform: none;
+  margin-top: calc(0px + var(--token-XqTvnabdiqSxZa)) !important;
+  display: flex;
+  padding: 0px 0px 0px var(--token-W-6SH9_akvPZJj);
+}
+.p {
+  font-size: var(--token-3SGxupAzd59CMg);
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  width: 100%;
+  position: relative;
+  left: auto;
+  top: auto;
+  color: var(--token-GIA4fxjo7Ekk1I);
+  margin-top: -12px;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.popenned {
+  color: var(--token-7tl9N5pHHbOlmi);
+  line-height: var(--token-RWv9ZuVxiJJ7Ul);
+  margin-top: 0px;
+  display: flex;
+}
+.slotTargetDescription {
+  line-height: var(--token-RWv9ZuVxiJJ7Ul);
+}
+.slotTargetDescription > *,
+.slotTargetDescription > .__wab_slot > *,
+.slotTargetDescription > .__wab_slot > .__wab_slot > *,
+.slotTargetDescription > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetDescription > picture > img,
+.slotTargetDescription > .__wab_slot > picture > img,
+.slotTargetDescription > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetDescription
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+.slotTargetDescriptionopenned {
+  line-height: var(--token-Zjh9_Itt-Vp-Gn);
+}
+.text__kg6C {
+  position: relative;
+  left: auto;
+  top: auto;
+  color: var(--token-7tl9N5pHHbOlmi);
+  transition-property: all;
+  transition-duration: 0.3s;
+  height: 100%;
+  min-height: 0;
+}

@@ -1,0 +1,40 @@
+.navLink {
+  position: relative;
+  display: flex;
+  color: var(--token-znh0DtJNV5S);
+}
+.navLink > :global(.__wab_flex-container) {
+  margin-left: calc(0px - var(--token-KQ-dKV9txCW));
+  width: calc(100% + var(--token-KQ-dKV9txCW));
+}
+.navLink > :global(.__wab_flex-container) > *,
+.navLink > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.navLink > :global(.__wab_flex-container) > picture > img,
+.navLink
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: var(--token-KQ-dKV9txCW);
+}
+.svg__g0GZ5 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+  display: block;
+}
+.slotTargetChildren {
+  font-weight: 700;
+}
+.svg__yvMka {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+  display: block;
+}

@@ -1,0 +1,20 @@
+.bullet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 12px;
+  height: 12px;
+  max-width: 100%;
+  position: relative;
+  border-radius: 50%;
+  border: 2px solid var(--token-0Nl8Sz5lLU8J);
+}
+.bulletativo {
+  background: var(--token-W2TDj5Exfoy);
+  border-color: var(--token-W2TDj5Exfoy);
+}
+.bullet:hover:active {
+  background: var(--token-W2TDj5Exfoy);
+  border-color: var(--token-W2TDj5Exfoy);
+}

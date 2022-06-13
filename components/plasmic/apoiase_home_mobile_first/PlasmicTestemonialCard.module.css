@@ -1,0 +1,161 @@
+.testemonialCard {
+  flex-direction: column;
+  box-shadow: 0px 1px 3px 0px var(--token-x0mpXkouNCU4H3);
+  transition-property: all;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  background: var(--token--n14kFavWwLVHe);
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  height: auto;
+  width: 100%;
+  min-width: 0;
+  border-radius: 12px;
+  padding: var(--token-W-6SH9_akvPZJj);
+  border: 1px solid var(--token-x0mpXkouNCU4H3);
+}
+.testemonialCard > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 0;
+  margin-top: calc(0px - var(--token-XqTvnabdiqSxZa));
+  height: calc(100% + var(--token-XqTvnabdiqSxZa));
+}
+.testemonialCard > :global(.__wab_flex-container) > *,
+.testemonialCard > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.testemonialCard > :global(.__wab_flex-container) > picture > img,
+.testemonialCard
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: var(--token-XqTvnabdiqSxZa);
+}
+.testemonialCard:hover {
+  box-shadow: 0px 4px 8px 4px var(--token-x0mpXkouNCU4H3);
+  transition-property: all;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+}
+.testemonialText {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.testemonialText > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - var(--token-Id9x7t3Vbv60Ub));
+  height: calc(100% + var(--token-Id9x7t3Vbv60Ub));
+}
+.testemonialText > :global(.__wab_flex-container) > *,
+.testemonialText > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.testemonialText > :global(.__wab_flex-container) > picture > img,
+.testemonialText
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: var(--token-Id9x7t3Vbv60Ub);
+}
+.quoteLeft {
+  height: 1px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: auto;
+  flex-shrink: 0;
+}
+.svg__htliD {
+  flex-direction: column;
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #db2328;
+  width: 40.495px;
+  height: 31.619px;
+  display: flex;
+  flex-shrink: 0;
+}
+.svg__htliD > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.svg__htliD > :global(.__wab_flex-container) > *,
+.svg__htliD > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.svg__htliD > :global(.__wab_flex-container) > picture > img,
+.svg__htliD
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.slotTargetChildren {
+  font-size: var(--token-3SGxupAzd59CMg);
+}
+.quoteRight {
+  height: 1px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+  min-width: 0;
+  flex-shrink: 0;
+}
+.svg___4L5Tg {
+  flex-direction: column;
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #db2328;
+  width: 40.495px;
+  height: 31.619px;
+  display: flex;
+  flex-shrink: 0;
+}
+.svg___4L5Tg > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.svg___4L5Tg > :global(.__wab_flex-container) > *,
+.svg___4L5Tg > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.svg___4L5Tg > :global(.__wab_flex-container) > picture > img,
+.svg___4L5Tg
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.campaignTitle:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.campaignAvatar__hf0DH:global(.__wab_instance) {
+  position: relative;
+  align-self: auto;
+  width: 100%;
+  height: 100%;
+  left: auto;
+  top: auto;
+  min-width: 0;
+  min-height: 0;
+}

@@ -1,0 +1,11 @@
+.brandLogo {
+  object-fit: cover;
+  max-width: 100%;
+  width: 190px;
+  height: 30px;
+  color: var(--token-W2TDj5Exfoy);
+  position: relative;
+}
+.brandLogowhite {
+  color: var(--token-HKC4YXTVHgw);
+}

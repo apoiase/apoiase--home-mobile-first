@@ -1,0 +1,47 @@
+.campaignTitleCard {
+  flex-direction: column;
+  box-shadow: 0px 1px 3px 0px var(--token-x0mpXkouNCU4H3);
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  background: rgba(255, 255, 255, 1);
+  display: inline-flex;
+  overflow: hidden;
+  position: relative;
+  height: auto;
+  width: auto;
+  border-radius: 12px;
+  padding: var(--token-Id9x7t3Vbv60Ub);
+  border: 1px solid var(--token-x0mpXkouNCU4H3);
+}
+.campaignTitleCard > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: center;
+  margin-top: calc(0px - var(--token-Id9x7t3Vbv60Ub));
+  height: calc(100% + var(--token-Id9x7t3Vbv60Ub));
+}
+.campaignTitleCard > :global(.__wab_flex-container) > *,
+.campaignTitleCard > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.campaignTitleCard > :global(.__wab_flex-container) > picture > img,
+.campaignTitleCard
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: var(--token-Id9x7t3Vbv60Ub);
+}
+.campaignTitleCard:hover {
+  box-shadow: 0px 4px 8px 4px var(--token-x0mpXkouNCU4H3);
+}
+.campaignAvatar__ddx7:global(.__wab_instance) {
+  position: relative;
+  align-self: auto;
+  width: 100%;
+  height: 100%;
+  left: auto;
+  top: auto;
+  min-width: 0;
+  min-height: 0;
+}

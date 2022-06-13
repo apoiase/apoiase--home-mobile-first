@@ -1,0 +1,122 @@
+.root {
+  flex-direction: column;
+  display: flex;
+  width: auto;
+  height: 530px;
+  max-width: 100%;
+  position: relative;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-top: calc(0px - var(--token-XqTvnabdiqSxZa));
+  height: calc(100% + var(--token-XqTvnabdiqSxZa));
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: var(--token-XqTvnabdiqSxZa);
+}
+.slideContent {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  width: 536px;
+  height: 535px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.slideContent > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: calc(0px - var(--token-Id9x7t3Vbv60Ub));
+  width: calc(100% + var(--token-Id9x7t3Vbv60Ub));
+}
+.slideContent > :global(.__wab_flex-container) > *,
+.slideContent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.slideContent > :global(.__wab_flex-container) > picture > img,
+.slideContent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: var(--token-Id9x7t3Vbv60Ub);
+}
+.slideArrow__wdZmu:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}
+.svg__qmq7G {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: var(--token-tU12IsG8Jar6Id);
+  width: 100%;
+  height: 34px;
+  display: block;
+  align-self: auto;
+  flex-grow: 1;
+  overflow: hidden;
+  min-width: 0;
+}
+.freeBox {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  left: 35px;
+  top: 0px;
+  padding: 8px;
+}
+.testemonialCard__vbX0:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 416px;
+  height: 507px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  flex-shrink: 0;
+}
+.testemonialCard__on5Ob:global(.__wab_instance) {
+  max-width: 100%;
+  width: 416px;
+  height: 507px;
+  margin-left: 76px;
+  flex-shrink: 0;
+}
+.testemonialCard__wjL0O:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 416px;
+  height: 507px;
+  flex-shrink: 0;
+}
+.slideArrow__nlu86:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: var(--token-tU12IsG8Jar6Id);
+  width: 100%;
+  height: 34px;
+  display: block;
+  align-self: auto;
+  flex-grow: 1;
+  overflow: hidden;
+  margin-left: 0px;
+  min-width: 0;
+}
+.slideBullet:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+}

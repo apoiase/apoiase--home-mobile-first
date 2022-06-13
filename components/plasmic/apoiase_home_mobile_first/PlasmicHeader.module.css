@@ -1,0 +1,218 @@
+.header {
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  background: var(--token-u2ailOHvBBa3RU);
+  height: auto;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  position: relative;
+  min-width: 0;
+  padding: var(--token-XqTvnabdiqSxZa);
+}
+.header > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 0;
+  margin-left: calc(0px - var(--token-H-oPC3puOZIUJM));
+  width: calc(100% + var(--token-H-oPC3puOZIUJM));
+}
+.header > :global(.__wab_flex-container) > *,
+.header > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.header > :global(.__wab_flex-container) > picture > img,
+.header
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: var(--token-H-oPC3puOZIUJM);
+}
+.headersize_medium {
+  padding-top: var(--token-Id9x7t3Vbv60Ub);
+  padding-bottom: var(--token-Id9x7t3Vbv60Ub);
+}
+.headersize_small {
+  padding-top: var(--token-e3xuC0EpX8WnMt);
+  padding-bottom: var(--token-e3xuC0EpX8WnMt);
+}
+.navContainer {
+  flex-direction: row;
+  display: flex;
+  position: sticky;
+  width: 100%;
+  max-width: var(--token-VE6l9x6T7crJry);
+  height: auto;
+  min-width: 0;
+}
+.navContainer > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 0;
+}
+.nav__dg37P {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  height: auto;
+}
+.nav__dg37P > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - var(--token-XqTvnabdiqSxZa));
+  width: calc(100% + var(--token-XqTvnabdiqSxZa));
+}
+.nav__dg37P > :global(.__wab_flex-container) > *,
+.nav__dg37P > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.nav__dg37P > :global(.__wab_flex-container) > picture > img,
+.nav__dg37P
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: var(--token-XqTvnabdiqSxZa);
+}
+.modalitiesMenu:global(.__wab_instance) {
+  max-width: 100%;
+  position: absolute;
+  left: 16%;
+  top: 0px;
+  z-index: -999;
+  display: flex;
+}
+.learnMenu:global(.__wab_instance) {
+  max-width: 100%;
+  position: absolute;
+  left: 45%;
+  top: 0px;
+  display: flex;
+}
+.link__kOEyA {
+  position: relative;
+  display: flex;
+}
+.brandLogo:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.startIcon2 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  display: block;
+}
+.endIcon2 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  display: block;
+}
+.text__eDpdd {
+  color: var(--token-7tl9N5pHHbOlmi);
+}
+.startIcon3 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  display: block;
+}
+.endIcon3 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  display: block;
+}
+.navDropdown:global(.__wab_instance) {
+  max-width: 100%;
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  display: none;
+}
+.nav___66Zl {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+}
+.nav___66Zl > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 24px);
+  width: calc(100% + 24px);
+}
+.nav___66Zl > :global(.__wab_flex-container) > *,
+.nav___66Zl > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.nav___66Zl > :global(.__wab_flex-container) > picture > img,
+.nav___66Zl
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 24px;
+}
+.link__oKv9 {
+  position: relative;
+  display: flex;
+}
+.svg__gihBl {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  display: block;
+}
+.svg__d03Tx {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  display: block;
+}
+.button:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  display: none;
+}
+.buttonwithCta:global(.__wab_instance) {
+  display: flex;
+}
+.svg__bx5Es {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__yomWx {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.apoiaseIconBurguer {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: var(--token-7tl9N5pHHbOlmi);
+  height: 1em;
+  left: auto;
+  top: auto;
+  width: 1em;
+  flex-shrink: 0;
+  display: none;
+}
