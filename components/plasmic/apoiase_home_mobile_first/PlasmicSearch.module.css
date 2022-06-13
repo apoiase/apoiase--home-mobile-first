@@ -193,15 +193,16 @@
   flex-direction: row;
   display: flex;
   position: relative;
-  width: auto;
+  width: 100%;
   height: auto;
-  max-width: 100%;
   overflow: visible;
+  min-width: 0;
 }
 .tabSelector > :global(.__wab_flex-container) {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  min-width: 0;
   margin-left: calc(0px - var(--token-Id9x7t3Vbv60Ub));
   width: calc(100% + var(--token-Id9x7t3Vbv60Ub));
 }

@@ -10,19 +10,12 @@
   min-height: 0;
 }
 .container3 {
-  display: flex;
   position: sticky;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  z-index: 1000;
   background: var(--token-u2ailOHvBBa3RU);
-  left: 0px;
-  top: 0px;
-  min-width: 0;
+  display: none;
 }
 @media (min-width: 512px) {
   .container3 {
