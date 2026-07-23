@@ -687,10 +687,10 @@
   resolved "https://registry.yarnpkg.com/@plasmicpkgs/plasmic-embed-css/-/plasmic-embed-css-0.1.41.tgz#2352ed2f91d328427b516fa4fda25ab3caeef53b"
   integrity sha512-ByTNU13sPy/J6LwDeC+Ui8denvRvKaEptHEwuQLZiYbW4j6ODmHXdeSTA5NSeoEYk0nwbf9GXGObEW7BrxiT/Q==
 
-"@plasmicpkgs/plasmic-nav@^0.0.27":
-  version "0.0.27"
-  resolved "https://registry.yarnpkg.com/@plasmicpkgs/plasmic-nav/-/plasmic-nav-0.0.27.tgz#74a439c063d032c0dcbae5252e2e84ba33bac19a"
-  integrity sha512-8yd4XFOpZSV2t9Kb6/rVO8M/dqq3Oy+8nDpdQmUcjXCbXIxW9t0ReKiaWTcJZvMCXpMafs0QyWMO6zZRhkPBsQ==
+"@plasmicpkgs/plasmic-nav@^0.0.224":
+  version "0.0.224"
+  resolved "https://registry.yarnpkg.com/@plasmicpkgs/plasmic-nav/-/plasmic-nav-0.0.224.tgz#f1c937bdea9685693d93d7fe27f19622ee572330"
+  integrity sha512-4pdDIqmG+9707cPoLdCIhwBYuD/6qshR8m4aR4lBVLghcvLxBH1eEOuzwFFKEDsYStDvDJefLcWLrLnPsUIRhA==
 
 "@plasmicpkgs/react-awesome-reveal@^3.8.57":
   version "3.8.57"
