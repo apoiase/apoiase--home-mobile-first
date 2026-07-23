@@ -669,10 +669,10 @@
   resolved "https://registry.yarnpkg.com/@plasmicpkgs/antd/-/antd-0.0.67.tgz#39149b04e4a489d5a5a5de181f209a251e08b53b"
   integrity sha512-GpXngVl2hm5m+HMkdAkAS6KOHzTUjwrxcMbfuDXsfKzNU1CsClA9wprVpN+MHEINtXrLwB4SRZpLz8f6oL/DYg==
 
-"@plasmicpkgs/plasmic-basic-components@^0.0.60":
-  version "0.0.60"
-  resolved "https://registry.yarnpkg.com/@plasmicpkgs/plasmic-basic-components/-/plasmic-basic-components-0.0.60.tgz#8fae719736ac974cb7d5eed5ec0a7e4d64d5ce97"
-  integrity sha512-UQNyWoHPHg7OgWmwuWnS3CpZSMdylsVpThp1+Ln8wVU/WS6aNoTVdMChSKbBqCluoacFIoBI0D/TkNkCN1q0Yg==
+"@plasmicpkgs/plasmic-basic-components@^0.0.154":
+  version "0.0.154"
+  resolved "https://registry.yarnpkg.com/@plasmicpkgs/plasmic-basic-components/-/plasmic-basic-components-0.0.154.tgz#918576fe17678fd68759ed31efd18e0fbbdfc80f"
+  integrity sha512-b6M851MJOU+OzRgnuyHdTWJAs+wMqtQEALwZ5OuYAB96/2DPuh8W07ovmX6iK36d8cjP124+YVcxwzj6lKgE+A==
 
 "@plasmicpkgs/plasmic-cms@^0.0.91":
   version "0.0.91"
