@@ -682,10 +682,10 @@
     "@plasmicapp/query" "0.1.49"
     dayjs "^1.10.7"
 
-"@plasmicpkgs/plasmic-embed-css@^0.1.41":
-  version "0.1.41"
-  resolved "https://registry.yarnpkg.com/@plasmicpkgs/plasmic-embed-css/-/plasmic-embed-css-0.1.41.tgz#2352ed2f91d328427b516fa4fda25ab3caeef53b"
-  integrity sha512-ByTNU13sPy/J6LwDeC+Ui8denvRvKaEptHEwuQLZiYbW4j6ODmHXdeSTA5NSeoEYk0nwbf9GXGObEW7BrxiT/Q==
+"@plasmicpkgs/plasmic-embed-css@^0.1.238":
+  version "0.1.238"
+  resolved "https://registry.yarnpkg.com/@plasmicpkgs/plasmic-embed-css/-/plasmic-embed-css-0.1.238.tgz#665a47a27459517ba8081762112b2c37a7ce95d6"
+  integrity sha512-05wJledkUT0WuyobAR6FHU9cRnCqnskgqp6Ou6dd3BK2k9ZhthHL6TXPWtB7ONCkB+7lCpS2YN934o5iAvGVag==
 
 "@plasmicpkgs/plasmic-nav@^0.0.27":
   version "0.0.27"
