@@ -1,0 +1,857 @@
+{
+  ".eslintrc.json": {
+    "mtime": 1784325234.0,
+    "ast_hash": "9b8be5ef96ddd69ecd1ddc1554c61a88",
+    "semantic_hash": "9b8be5ef96ddd69ecd1ddc1554c61a88"
+  },
+  "components/Accordion.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "9578ab714e1f962cf446ddbc5bb47b67",
+    "semantic_hash": "9578ab714e1f962cf446ddbc5bb47b67"
+  },
+  "components/AccordionItem.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "246c7bec929aa3b448b0ee11397ae7ea",
+    "semantic_hash": "246c7bec929aa3b448b0ee11397ae7ea"
+  },
+  "components/AccordionSlider.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "cf5c3e737ba0bba17d3c2047dd46a92c",
+    "semantic_hash": "cf5c3e737ba0bba17d3c2047dd46a92c"
+  },
+  "components/AccordionSliderItem.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "1efae173107599a8295a9681cb6bf928",
+    "semantic_hash": "1efae173107599a8295a9681cb6bf928"
+  },
+  "components/BenefitsCard.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "f47c8cffc1a0aab1bacb25f188df44fd",
+    "semantic_hash": "f47c8cffc1a0aab1bacb25f188df44fd"
+  },
+  "components/BenefitsItem.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "3df1db94677cfed26656bd7f73a06d0d",
+    "semantic_hash": "3df1db94677cfed26656bd7f73a06d0d"
+  },
+  "components/BrandLogo.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "89355279bca4c56546ba723065d544d5",
+    "semantic_hash": "89355279bca4c56546ba723065d544d5"
+  },
+  "components/Bullet.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "c1ea1287e63cf47160e3ba6d3c56defd",
+    "semantic_hash": "c1ea1287e63cf47160e3ba6d3c56defd"
+  },
+  "components/Button.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "d9e95df7bc7698335966375d272cd3ed",
+    "semantic_hash": "d9e95df7bc7698335966375d272cd3ed"
+  },
+  "components/CampaignAvatar.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "ac74c3258afaec39c654628025711c0e",
+    "semantic_hash": "ac74c3258afaec39c654628025711c0e"
+  },
+  "components/CampaignCard.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "92e11fa461b3e9521253d08276137733",
+    "semantic_hash": "92e11fa461b3e9521253d08276137733"
+  },
+  "components/CampaignLogo.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "58a2f49f6ad332a3815c219b0761589d",
+    "semantic_hash": "58a2f49f6ad332a3815c219b0761589d"
+  },
+  "components/CampaignSelector.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "9974d9eedd0e91d016aa4ae604c2ea49",
+    "semantic_hash": "9974d9eedd0e91d016aa4ae604c2ea49"
+  },
+  "components/CampaignTitle.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "d3db33d014cd01d936d6f070e8ba905f",
+    "semantic_hash": "d3db33d014cd01d936d6f070e8ba905f"
+  },
+  "components/CampaignTitleCard.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "70736594a575fa48b7c97a7c5d71ab0b",
+    "semantic_hash": "70736594a575fa48b7c97a7c5d71ab0b"
+  },
+  "components/Footer.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "828a2d6a676f6ae1a61a78fcaf4c0a02",
+    "semantic_hash": "828a2d6a676f6ae1a61a78fcaf4c0a02"
+  },
+  "components/Header.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "99453e12de220acffd423c300b87e50f",
+    "semantic_hash": "99453e12de220acffd423c300b87e50f"
+  },
+  "components/HeroCta.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "ea567c9d1439178691568114b606abda",
+    "semantic_hash": "ea567c9d1439178691568114b606abda"
+  },
+  "components/NavButton.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "f94bc66fdcfcc41e84f6cc6f75df8e83",
+    "semantic_hash": "f94bc66fdcfcc41e84f6cc6f75df8e83"
+  },
+  "components/NavDropdown.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "aee7e89c0cb15732dada154b7d37690b",
+    "semantic_hash": "aee7e89c0cb15732dada154b7d37690b"
+  },
+  "components/NavLink.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "6bfe41d8207e4e094248a1b8e28e62cd",
+    "semantic_hash": "6bfe41d8207e4e094248a1b8e28e62cd"
+  },
+  "components/Search.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "35b32a446f3697dfd99fd557b7508253",
+    "semantic_hash": "35b32a446f3697dfd99fd557b7508253"
+  },
+  "components/SearchDropdown.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "08668ba4e1e2e0332756a77c45b2af10",
+    "semantic_hash": "08668ba4e1e2e0332756a77c45b2af10"
+  },
+  "components/SearchInput.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "4a13bb15fb1cb715342599aa797a7ace",
+    "semantic_hash": "4a13bb15fb1cb715342599aa797a7ace"
+  },
+  "components/SectionTitle.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "21b92ceda6337428fe18463fc13ef6b1",
+    "semantic_hash": "21b92ceda6337428fe18463fc13ef6b1"
+  },
+  "components/Separator.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "7fe560436d2b1d2585c0ebde9cae3fa4",
+    "semantic_hash": "7fe560436d2b1d2585c0ebde9cae3fa4"
+  },
+  "components/SlideArrow.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "c786aa8ce5ce909ce419f40015678179",
+    "semantic_hash": "c786aa8ce5ce909ce419f40015678179"
+  },
+  "components/SlideBullet.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "55d7338c64315fc2cb211fa495a16abb",
+    "semantic_hash": "55d7338c64315fc2cb211fa495a16abb"
+  },
+  "components/TabItem.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "d9e3ec32a8d5dcb3f3c5adfd23367c15",
+    "semantic_hash": "d9e3ec32a8d5dcb3f3c5adfd23367c15"
+  },
+  "components/TestemonialCard.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "9bee80748b5ac2b95a121f0538725390",
+    "semantic_hash": "9bee80748b5ac2b95a121f0538725390"
+  },
+  "components/TestemonialSlider.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "b6ae5b6b8339db5480b734964a256a03",
+    "semantic_hash": "b6ae5b6b8339db5480b734964a256a03"
+  },
+  "components/TextInput.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "12c739660527a12249316b56b9ee3149",
+    "semantic_hash": "12c739660527a12249316b56b9ee3149"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicAccordion.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "e288264085b96d036471777a2321116d",
+    "semantic_hash": "e288264085b96d036471777a2321116d"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicAccordionItem.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "5163ed7bc14a4b565ace7f8a952fbd14",
+    "semantic_hash": "5163ed7bc14a4b565ace7f8a952fbd14"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicAccordionSlider.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "66d8931b3a55a620cebbefefb21adf4f",
+    "semantic_hash": "66d8931b3a55a620cebbefefb21adf4f"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicAccordionSliderItem.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "0548a69611ad8c8daf88c13f88b2778d",
+    "semantic_hash": "0548a69611ad8c8daf88c13f88b2778d"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicBenefitsCard.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "954b0c36e79070e35783f7170e657ea2",
+    "semantic_hash": "954b0c36e79070e35783f7170e657ea2"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicBenefitsItem.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "07a9c4c735994c0972a877d2af49cdc2",
+    "semantic_hash": "07a9c4c735994c0972a877d2af49cdc2"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicBrandLogo.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "60bf830b160e22eee762f7f6ff74eb62",
+    "semantic_hash": "60bf830b160e22eee762f7f6ff74eb62"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicBullet.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "00943807a5a892f754ef7b083e0c9219",
+    "semantic_hash": "00943807a5a892f754ef7b083e0c9219"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicButton.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "20101e6b4f2526d728fe3d286b139703",
+    "semantic_hash": "20101e6b4f2526d728fe3d286b139703"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicCampaignAvatar.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "2acfa804cff7d205e03e358512486121",
+    "semantic_hash": "2acfa804cff7d205e03e358512486121"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicCampaignCard.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "0ac6a457946deddd4a19ee1e8022364b",
+    "semantic_hash": "0ac6a457946deddd4a19ee1e8022364b"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicCampaignLogo.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "abcbba41faaf934903d291ef827cf11f",
+    "semantic_hash": "abcbba41faaf934903d291ef827cf11f"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicCampaignSelector.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "d878391c9ead2e09a0f4caca0760f529",
+    "semantic_hash": "d878391c9ead2e09a0f4caca0760f529"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicCampaignTitle.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "eba105dd437980727593743f9ae12eb5",
+    "semantic_hash": "eba105dd437980727593743f9ae12eb5"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicCampaignTitleCard.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "e8a81e5a5bda77d7fc5b2ecbd3d03df4",
+    "semantic_hash": "e8a81e5a5bda77d7fc5b2ecbd3d03df4"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicContinuaPorMes.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "fcef5f54ce7fe9bd52a9baa776aa75c0",
+    "semantic_hash": "fcef5f54ce7fe9bd52a9baa776aa75c0"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicFooter.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "2a82481b492c0434a9235e7111c2e02f",
+    "semantic_hash": "2a82481b492c0434a9235e7111c2e02f"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicGlobalContextsProvider.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "55deee646cb3b416d1419e2fa29aab2f",
+    "semantic_hash": "55deee646cb3b416d1419e2fa29aab2f"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicGlobalVariant__Primary.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "d33de40ae97c1b0ebcaf2623ec5400f4",
+    "semantic_hash": "d33de40ae97c1b0ebcaf2623ec5400f4"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicGlobalVariant__Screen.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "07444ca8f5f77274a7adc12c83e61834",
+    "semantic_hash": "07444ca8f5f77274a7adc12c83e61834"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicGlobalVariant__UnnamedGlobalGroupOfVariants2.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "107cde5b21f431152b7a8d3759aad5be",
+    "semantic_hash": "107cde5b21f431152b7a8d3759aad5be"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicHeader.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "2096ab0558d3e78f237c731382b57993",
+    "semantic_hash": "2096ab0558d3e78f237c731382b57993"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicHeroCta.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "6479bd27b7dfef42ec70e1944b16189f",
+    "semantic_hash": "6479bd27b7dfef42ec70e1944b16189f"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicHome.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "5c43ca8b95ca62cb40c0220539907392",
+    "semantic_hash": "5c43ca8b95ca62cb40c0220539907392"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicNavButton.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "2cc9debe640e14823f0d05bdfe0b5db7",
+    "semantic_hash": "2cc9debe640e14823f0d05bdfe0b5db7"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicNavDropdown.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "313a053345d5ceda4db3c6ac0c297933",
+    "semantic_hash": "313a053345d5ceda4db3c6ac0c297933"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicSearch.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "76d76693128f6eab0ec36e25d2b3d5b6",
+    "semantic_hash": "76d76693128f6eab0ec36e25d2b3d5b6"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicSearchDropdown.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "764d00697d006466a703718c7ccb91de",
+    "semantic_hash": "764d00697d006466a703718c7ccb91de"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicSearchInput.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "6a089cbd335da354d4856ea283e3d2c9",
+    "semantic_hash": "6a089cbd335da354d4856ea283e3d2c9"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicSectionTitle.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "0ac17cd560e611c3d7810e2aa28214c8",
+    "semantic_hash": "0ac17cd560e611c3d7810e2aa28214c8"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicSeparator.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "c2ea1f781b58cfc12e5390270f5052f4",
+    "semantic_hash": "c2ea1f781b58cfc12e5390270f5052f4"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicSlideArrow.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "17f4e21cb8e805129b437cc208c9be6b",
+    "semantic_hash": "17f4e21cb8e805129b437cc208c9be6b"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicSlideBullet.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "7a76bab96fc81803c0bb84ee388c2afa",
+    "semantic_hash": "7a76bab96fc81803c0bb84ee388c2afa"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicTabItem.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "cbaa6ced6f79c37b43acdae19b3e382b",
+    "semantic_hash": "cbaa6ced6f79c37b43acdae19b3e382b"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicTestemonialCard.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "e8b9d6c28de77f7741a6472165b9e617",
+    "semantic_hash": "e8b9d6c28de77f7741a6472165b9e617"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicTestemonialSlider.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "b20020685cad34dfa5b56c581b41ea85",
+    "semantic_hash": "b20020685cad34dfa5b56c581b41ea85"
+  },
+  "components/plasmic/apoiase_home_mobile_first/PlasmicTextInput.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "545903e62576810cb34d0d77fe695435",
+    "semantic_hash": "545903e62576810cb34d0d77fe695435"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseBrandLogoRedsvg.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "faa4f5506d8d8b94f8b9c54bb8e59abc",
+    "semantic_hash": "faa4f5506d8d8b94f8b9c54bb8e59abc"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseCampanhaContinuaPorMes.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "081a0b0dc91650733c3fbc526600f0f5",
+    "semantic_hash": "081a0b0dc91650733c3fbc526600f0f5"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseCampanhaContinuaSymbol.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "299299387ae73bc43c65e2ef4d927433",
+    "semantic_hash": "299299387ae73bc43c65e2ef4d927433"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseCampanhaContinuaTypo.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "320f537adf9b2e65eed6334672e4a219",
+    "semantic_hash": "320f537adf9b2e65eed6334672e4a219"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseCampanhaPontualMetaLivre.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "3b6a723c0ee5f21024c62ef689ff085b",
+    "semantic_hash": "3b6a723c0ee5f21024c62ef689ff085b"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseCampanhaPontualSymbol.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "06e9b52e4000bec246908b7d6e967517",
+    "semantic_hash": "06e9b52e4000bec246908b7d6e967517"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseCampanhaPontualTypo.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "e0f936fd29cdd3fad942449b83e16354",
+    "semantic_hash": "e0f936fd29cdd3fad942449b83e16354"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconArrowDown.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "29ee16ca107b2fc8dc109b3f87d19d11",
+    "semantic_hash": "29ee16ca107b2fc8dc109b3f87d19d11"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconArrowLeft.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "329be333c27c41323b3a41975161b7a7",
+    "semantic_hash": "329be333c27c41323b3a41975161b7a7"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconArrowRight.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "a9bc993c3029eae92953b57d8bff52b6",
+    "semantic_hash": "a9bc993c3029eae92953b57d8bff52b6"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconBook.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "a87afba9b39b8d66908ca9edcc088e2c",
+    "semantic_hash": "a87afba9b39b8d66908ca9edcc088e2c"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconBurguer.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "df491b029fa206ee186c555c3e12a31d",
+    "semantic_hash": "df491b029fa206ee186c555c3e12a31d"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconCard.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "cba682d5a00fa89f66d41730ccc585ab",
+    "semantic_hash": "cba682d5a00fa89f66d41730ccc585ab"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconCheck.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "6fb5041d535cee03bd5c7702dae55fae",
+    "semantic_hash": "6fb5041d535cee03bd5c7702dae55fae"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconCoin.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "19ab62df0eaa01d6d54fc7960f5437bb",
+    "semantic_hash": "19ab62df0eaa01d6d54fc7960f5437bb"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconEqual.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "28dbef7cdb52e38c780db6306f958732",
+    "semantic_hash": "28dbef7cdb52e38c780db6306f958732"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconFreedomsvg.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "849b2f98c491a653dc0ac9ac6201fb30",
+    "semantic_hash": "849b2f98c491a653dc0ac9ac6201fb30"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconGithub.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "4cf6e42a48314604265aae7821e96989",
+    "semantic_hash": "4cf6e42a48314604265aae7821e96989"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconHeartSelected.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "6c01adcb548b353c15adce3a260a87e2",
+    "semantic_hash": "6c01adcb548b353c15adce3a260a87e2"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconHeartUnselected.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "99cced2f46d7f233e91d1607588365b8",
+    "semantic_hash": "99cced2f46d7f233e91d1607588365b8"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconLinkedin.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "60e81f175a3523c5cc22810779cdc372",
+    "semantic_hash": "60e81f175a3523c5cc22810779cdc372"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconManager.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "de7e9ad828590e1d7e9fc32ca30c68db",
+    "semantic_hash": "de7e9ad828590e1d7e9fc32ca30c68db"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconManagmentsvg.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "7b02c6c26d095cf3e55f9b108f25280f",
+    "semantic_hash": "7b02c6c26d095cf3e55f9b108f25280f"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconMessages.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "515919ea660e2a7fa518fc69db89bf66",
+    "semantic_hash": "515919ea660e2a7fa518fc69db89bf66"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconMoneysvg.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "026bd9ae7be6378ea56845ace6e2a5e3",
+    "semantic_hash": "026bd9ae7be6378ea56845ace6e2a5e3"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconMural.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "54b06a5dfcdb0a07d23617d25927433f",
+    "semantic_hash": "54b06a5dfcdb0a07d23617d25927433f"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconMyPledge.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "479d56514c214a7d619897b9ad66027e",
+    "semantic_hash": "479d56514c214a7d619897b9ad66027e"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconPlus.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "4eccc376939429a39033c6dc365d1867",
+    "semantic_hash": "4eccc376939429a39033c6dc365d1867"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconProfile.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "5c68ed7fe9090cfb0664024f284787e6",
+    "semantic_hash": "5c68ed7fe9090cfb0664024f284787e6"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconQuoteLeft.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "cbb45ad3ce98a1e0a7d304afb25c761d",
+    "semantic_hash": "cbb45ad3ce98a1e0a7d304afb25c761d"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconQuoteRight.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "58853c2ad8fe5ca37f725c6bf0aa19d7",
+    "semantic_hash": "58853c2ad8fe5ca37f725c6bf0aa19d7"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconSearch.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "659db06760917a30b48895e67d21da52",
+    "semantic_hash": "659db06760917a30b48895e67d21da52"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconStarSmall.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "426a7dc6a539a18aaa32c8e283be555e",
+    "semantic_hash": "426a7dc6a539a18aaa32c8e283be555e"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconSupport.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "42e6aa42836d2758bef1398088f7b9d5",
+    "semantic_hash": "42e6aa42836d2758bef1398088f7b9d5"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIconTwitter.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "74676a8c5c48120b15d509b463f68006",
+    "semantic_hash": "74676a8c5c48120b15d509b463f68006"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIllustrationLine.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "6fb34a6ac9bb39526a334111f0fc70a3",
+    "semantic_hash": "6fb34a6ac9bb39526a334111f0fc70a3"
+  },
+  "components/plasmic/apoiase_home_mobile_first/icons/PlasmicIcon__ApoiaseIllustrationPlant.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "2b42c655ded32d2a6ed82b77e965e5df",
+    "semantic_hash": "2b42c655ded32d2a6ed82b77e965e5df"
+  },
+  "components/plasmic/apoiase_website_mobile_first/PlasmicBrandLogo.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "8dcf0da1c2422e111c0aa90331317227",
+    "semantic_hash": "8dcf0da1c2422e111c0aa90331317227"
+  },
+  "components/plasmic/apoiase_website_mobile_first/PlasmicBullet.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "419d0977de042af515a635cee51ccb7b",
+    "semantic_hash": "419d0977de042af515a635cee51ccb7b"
+  },
+  "components/plasmic/apoiase_website_mobile_first/PlasmicButton.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "fb488c919899a759fac257ef5140d180",
+    "semantic_hash": "fb488c919899a759fac257ef5140d180"
+  },
+  "components/plasmic/apoiase_website_mobile_first/PlasmicCampaignAvatar.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "80610d9004ccd4ac5a47271ff01cd968",
+    "semantic_hash": "80610d9004ccd4ac5a47271ff01cd968"
+  },
+  "components/plasmic/apoiase_website_mobile_first/PlasmicCampaignCard.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "4f13b58ffc399894d1fb739cd1ad9f1f",
+    "semantic_hash": "4f13b58ffc399894d1fb739cd1ad9f1f"
+  },
+  "components/plasmic/apoiase_website_mobile_first/PlasmicCampaignTitle.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "73ffab16cec19329b3cb7cc964465cae",
+    "semantic_hash": "73ffab16cec19329b3cb7cc964465cae"
+  },
+  "components/plasmic/apoiase_website_mobile_first/PlasmicCampaignTitleCard.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "1c653ef811357cb3c9d391a939d6aec9",
+    "semantic_hash": "1c653ef811357cb3c9d391a939d6aec9"
+  },
+  "components/plasmic/apoiase_website_mobile_first/PlasmicGlobalContextsProvider.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "9208cae2d4ad2e0a11fb140d685ec292",
+    "semantic_hash": "9208cae2d4ad2e0a11fb140d685ec292"
+  },
+  "components/plasmic/apoiase_website_mobile_first/PlasmicGlobalVariant__Screen.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "1cd4e2147bea096d4e37fbd4340c67cb",
+    "semantic_hash": "1cd4e2147bea096d4e37fbd4340c67cb"
+  },
+  "components/plasmic/apoiase_website_mobile_first/PlasmicHeader.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "d72d35f78423501e754a96449bc93c85",
+    "semantic_hash": "d72d35f78423501e754a96449bc93c85"
+  },
+  "components/plasmic/apoiase_website_mobile_first/PlasmicHeroCta.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "f3820e06fbb3fa00e373cbb2497232ad",
+    "semantic_hash": "f3820e06fbb3fa00e373cbb2497232ad"
+  },
+  "components/plasmic/apoiase_website_mobile_first/PlasmicNavDropdown.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "d5664b376503cb1924920ecb0a3d750c",
+    "semantic_hash": "d5664b376503cb1924920ecb0a3d750c"
+  },
+  "components/plasmic/apoiase_website_mobile_first/PlasmicNavLink.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "66dc9354ed19d300121f1021ed6214b9",
+    "semantic_hash": "66dc9354ed19d300121f1021ed6214b9"
+  },
+  "components/plasmic/apoiase_website_mobile_first/PlasmicSearch.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "013b9835ee4f2bc64b530e04cfbdd08d",
+    "semantic_hash": "013b9835ee4f2bc64b530e04cfbdd08d"
+  },
+  "components/plasmic/apoiase_website_mobile_first/PlasmicSearchDropdown.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "959a2ee9e5c9acfc9514a1edb9ee14a1",
+    "semantic_hash": "959a2ee9e5c9acfc9514a1edb9ee14a1"
+  },
+  "components/plasmic/apoiase_website_mobile_first/PlasmicSearchInput.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "fad39ace8164f86519868b9b31243e4d",
+    "semantic_hash": "fad39ace8164f86519868b9b31243e4d"
+  },
+  "components/plasmic/apoiase_website_mobile_first/PlasmicSeparator.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "572a3cd539ac01d21dd30383a984d3cc",
+    "semantic_hash": "572a3cd539ac01d21dd30383a984d3cc"
+  },
+  "components/plasmic/apoiase_website_mobile_first/PlasmicSlideBullet.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "5ae826e1c274a7c51c5cf72a66726862",
+    "semantic_hash": "5ae826e1c274a7c51c5cf72a66726862"
+  },
+  "components/plasmic/apoiase_website_mobile_first/PlasmicTabItem.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "1e2e814c34d1b5b407b2f61416f5deac",
+    "semantic_hash": "1e2e814c34d1b5b407b2f61416f5deac"
+  },
+  "components/plasmic/apoiase_website_mobile_first/icons/PlasmicIcon__ApoiaseBrandLogo.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "eae1f5596dc0b4c99f1a3b4213cce2d0",
+    "semantic_hash": "eae1f5596dc0b4c99f1a3b4213cce2d0"
+  },
+  "components/plasmic/apoiase_website_mobile_first/icons/PlasmicIcon__ApoiaseCampanhaContinuaSymbol.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "299299387ae73bc43c65e2ef4d927433",
+    "semantic_hash": "299299387ae73bc43c65e2ef4d927433"
+  },
+  "components/plasmic/apoiase_website_mobile_first/icons/PlasmicIcon__ApoiaseCampanhaContinuaTypo.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "320f537adf9b2e65eed6334672e4a219",
+    "semantic_hash": "320f537adf9b2e65eed6334672e4a219"
+  },
+  "components/plasmic/apoiase_website_mobile_first/icons/PlasmicIcon__ApoiaseCampanhaPontualSymbol.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "06e9b52e4000bec246908b7d6e967517",
+    "semantic_hash": "06e9b52e4000bec246908b7d6e967517"
+  },
+  "components/plasmic/apoiase_website_mobile_first/icons/PlasmicIcon__ApoiaseCampanhaPontualTypo.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "e0f936fd29cdd3fad942449b83e16354",
+    "semantic_hash": "e0f936fd29cdd3fad942449b83e16354"
+  },
+  "components/plasmic/apoiase_website_mobile_first/icons/PlasmicIcon__ApoiaseIconArrowDown.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "29ee16ca107b2fc8dc109b3f87d19d11",
+    "semantic_hash": "29ee16ca107b2fc8dc109b3f87d19d11"
+  },
+  "components/plasmic/apoiase_website_mobile_first/icons/PlasmicIcon__ApoiaseIconArrowRight.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "a9bc993c3029eae92953b57d8bff52b6",
+    "semantic_hash": "a9bc993c3029eae92953b57d8bff52b6"
+  },
+  "components/plasmic/apoiase_website_mobile_first/icons/PlasmicIcon__ApoiaseIconBurguer.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "df491b029fa206ee186c555c3e12a31d",
+    "semantic_hash": "df491b029fa206ee186c555c3e12a31d"
+  },
+  "components/plasmic/apoiase_website_mobile_first/icons/PlasmicIcon__ApoiaseIconCard.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "cba682d5a00fa89f66d41730ccc585ab",
+    "semantic_hash": "cba682d5a00fa89f66d41730ccc585ab"
+  },
+  "components/plasmic/apoiase_website_mobile_first/icons/PlasmicIcon__ApoiaseIconCheck.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "6fb5041d535cee03bd5c7702dae55fae",
+    "semantic_hash": "6fb5041d535cee03bd5c7702dae55fae"
+  },
+  "components/plasmic/apoiase_website_mobile_first/icons/PlasmicIcon__ApoiaseIconHeartSelected.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "6c01adcb548b353c15adce3a260a87e2",
+    "semantic_hash": "6c01adcb548b353c15adce3a260a87e2"
+  },
+  "components/plasmic/apoiase_website_mobile_first/icons/PlasmicIcon__ApoiaseIconHeartUnselected.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "99cced2f46d7f233e91d1607588365b8",
+    "semantic_hash": "99cced2f46d7f233e91d1607588365b8"
+  },
+  "components/plasmic/apoiase_website_mobile_first/icons/PlasmicIcon__ApoiaseIconMyPledge.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "479d56514c214a7d619897b9ad66027e",
+    "semantic_hash": "479d56514c214a7d619897b9ad66027e"
+  },
+  "components/plasmic/apoiase_website_mobile_first/icons/PlasmicIcon__ApoiaseIconProfile.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "5c68ed7fe9090cfb0664024f284787e6",
+    "semantic_hash": "5c68ed7fe9090cfb0664024f284787e6"
+  },
+  "components/plasmic/apoiase_website_mobile_first/icons/PlasmicIcon__ApoiaseIconSearch.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "659db06760917a30b48895e67d21da52",
+    "semantic_hash": "659db06760917a30b48895e67d21da52"
+  },
+  "components/plasmic/apoiase_website_mobile_first/icons/PlasmicIcon__ApoiaseIconStarSmall.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "426a7dc6a539a18aaa32c8e283be555e",
+    "semantic_hash": "426a7dc6a539a18aaa32c8e283be555e"
+  },
+  "components/plasmic/plasmic_basic_components/PlasmicGlobalVariant__Screen.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "2223dcd72742c6c72deb61bd613e7e66",
+    "semantic_hash": "2223dcd72742c6c72deb61bd613e7e66"
+  },
+  "components/plasmic/plasmic_cms/PlasmicGlobalContextsProvider.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "678849a6cba8ea8f104423288717e32d",
+    "semantic_hash": "678849a6cba8ea8f104423288717e32d"
+  },
+  "components/plasmic/plasmic_embed_css/PlasmicGlobalContextsProvider.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "3a364b2edd5618273d04fc3b18635e30",
+    "semantic_hash": "3a364b2edd5618273d04fc3b18635e30"
+  },
+  "components/plasmic/react_parallax_tilt/PlasmicGlobalVariant__Screen.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "2223dcd72742c6c72deb61bd613e7e66",
+    "semantic_hash": "2223dcd72742c6c72deb61bd613e7e66"
+  },
+  "components/plasmic/react_scroll_parallax_global/PlasmicGlobalContextsProvider.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "c93f5a0b89debe4c69c481381a5d825d",
+    "semantic_hash": "c93f5a0b89debe4c69c481381a5d825d"
+  },
+  "next-env.d.ts": {
+    "mtime": 1784325234.0,
+    "ast_hash": "3cf36e94213e85dc306ec5f3f3760ecc",
+    "semantic_hash": "3cf36e94213e85dc306ec5f3f3760ecc"
+  },
+  "next.config.js": {
+    "mtime": 1784325234.0,
+    "ast_hash": "786d4a42d3ace571da6073efe8ac961e",
+    "semantic_hash": "786d4a42d3ace571da6073efe8ac961e"
+  },
+  "package.json": {
+    "mtime": 1784325234.0,
+    "ast_hash": "f1e1077c61b6d393e05a47792bd223f4",
+    "semantic_hash": "f1e1077c61b6d393e05a47792bd223f4"
+  },
+  "pages/_app.js": {
+    "mtime": 1784325234.0,
+    "ast_hash": "c8bbd29dda9743b3dfc4371d0c0f0523",
+    "semantic_hash": "c8bbd29dda9743b3dfc4371d0c0f0523"
+  },
+  "pages/api/hello.ts": {
+    "mtime": 1784325234.0,
+    "ast_hash": "a546ee6e68d199da5565dc561f68d7be",
+    "semantic_hash": "a546ee6e68d199da5565dc561f68d7be"
+  },
+  "pages/continua-por-mes.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "523e394235ec94e0d004b9ad1dcd4ffa",
+    "semantic_hash": "523e394235ec94e0d004b9ad1dcd4ffa"
+  },
+  "pages/index.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "679730a15b182c44791e8b2c01d297dc",
+    "semantic_hash": "679730a15b182c44791e8b2c01d297dc"
+  },
+  "pages/plasmic-host.tsx": {
+    "mtime": 1784325234.0,
+    "ast_hash": "12831084e65d586d2d2db7a94e3e4725",
+    "semantic_hash": "12831084e65d586d2d2db7a94e3e4725"
+  },
+  "plasmic.json": {
+    "mtime": 1784325234.0,
+    "ast_hash": "e19553483d0c94518e51b94fd1575982",
+    "semantic_hash": "e19553483d0c94518e51b94fd1575982"
+  },
+  "tsconfig.json": {
+    "mtime": 1784325234.0,
+    "ast_hash": "e12a9c19a5a67ade985cd743872fb20c",
+    "semantic_hash": "e12a9c19a5a67ade985cd743872fb20c"
+  },
+  ".github/workflows/plasmic-push.yml": {
+    "mtime": 1784325234.0,
+    "ast_hash": "6aadf40d829c6622887f3e2207da5bff",
+    "semantic_hash": "6aadf40d829c6622887f3e2207da5bff"
+  },
+  ".github/workflows/plasmic.yml": {
+    "mtime": 1784325234.0,
+    "ast_hash": "7ad63574ef8b454c54f2bdddbd96e3bb",
+    "semantic_hash": "7ad63574ef8b454c54f2bdddbd96e3bb"
+  },
+  "README.md": {
+    "mtime": 1784325234.0,
+    "ast_hash": "780d4419b185ec7f73f21b22aae93674",
+    "semantic_hash": "780d4419b185ec7f73f21b22aae93674"
+  },
+  "public/plasmic/apoiase_home_mobile_first/images/apoiaseIllustrationContinuasvg.svg": {
+    "mtime": 1784325234.0,
+    "ast_hash": "46762377fbb59b9cedad4f815eee5276",
+    "semantic_hash": "46762377fbb59b9cedad4f815eee5276"
+  },
+  "public/plasmic/apoiase_home_mobile_first/images/apoiaseIllustrationFaqsvg.svg": {
+    "mtime": 1784325234.0,
+    "ast_hash": "5d10099921456f5a14da05babed0e84c",
+    "semantic_hash": "5d10099921456f5a14da05babed0e84c"
+  },
+  "public/plasmic/apoiase_home_mobile_first/images/apoiaseIllustrationSection2Svg.svg": {
+    "mtime": 1784325234.0,
+    "ast_hash": "183dd84598a94fcb69c041ea0cdcb5fe",
+    "semantic_hash": "183dd84598a94fcb69c041ea0cdcb5fe"
+  },
+  "public/plasmic/apoiase_home_mobile_first/images/apoiaseIllustrationSectionWhosvg.svg": {
+    "mtime": 1784325234.0,
+    "ast_hash": "ba3fab6281d4fb3700e5a2b856b7cea8",
+    "semantic_hash": "ba3fab6281d4fb3700e5a2b856b7cea8"
+  },
+  "public/plasmic/apoiase_home_mobile_first/images/apoiaseIlustraCriacaosvg2.svg": {
+    "mtime": 1784325234.0,
+    "ast_hash": "10cfa0c275ebfaac861866e63a900703",
+    "semantic_hash": "10cfa0c275ebfaac861866e63a900703"
+  },
+  "public/plasmic/apoiase_home_mobile_first/images/brandIllustrationHero.svg": {
+    "mtime": 1784325234.0,
+    "ast_hash": "06e5aa9f3ed7f92d147fd17db6242d29",
+    "semantic_hash": "06e5aa9f3ed7f92d147fd17db6242d29"
+  },
+  "public/plasmic/apoiase_home_mobile_first/images/campaignAvatar.jpeg": {
+    "mtime": 1784325234.0,
+    "ast_hash": "dccac3da183cebb707ad208fe8ab7318",
+    "semantic_hash": "dccac3da183cebb707ad208fe8ab7318"
+  },
+  "public/plasmic/apoiase_home_mobile_first/images/campaignCover.jpeg": {
+    "mtime": 1784325234.0,
+    "ast_hash": "2b80ebb0a1ea919b6241d905c412f5da",
+    "semantic_hash": "2b80ebb0a1ea919b6241d905c412f5da"
+  },
+  "public/plasmic/apoiase_website_mobile_first/images/apoiaseIllustrationContinuasvg.svg": {
+    "mtime": 1784325234.0,
+    "ast_hash": "46762377fbb59b9cedad4f815eee5276",
+    "semantic_hash": "46762377fbb59b9cedad4f815eee5276"
+  },
+  "public/plasmic/apoiase_website_mobile_first/images/campaignAvatar.jpeg": {
+    "mtime": 1784325234.0,
+    "ast_hash": "dccac3da183cebb707ad208fe8ab7318",
+    "semantic_hash": "dccac3da183cebb707ad208fe8ab7318"
+  },
+  "public/vercel.svg": {
+    "mtime": 1784325234.0,
+    "ast_hash": "4b4f1876502eb6721764637fe5c41702",
+    "semantic_hash": "4b4f1876502eb6721764637fe5c41702"
+  }
+}

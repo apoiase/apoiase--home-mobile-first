@@ -1,0 +1,526 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "apoiase--home-mobile-first",
+    "description": "Site Next.js + Plasmic (design visual via Plasmic Studio, codegen blackbox) da home mobile-first da Apoia.se — scaffold create-plasmic-app nunca renomeado (package.json ainda diz 'tmp-cpa'). Publica via GitHub Pages (gh-pages branch), não AWS. Contém dois projetos Plasmic sincronizados no mesmo repo (apoiase_home_mobile_first e apoiase_website_mobile_first) e 10 API tokens do Plasmic em texto plano em plasmic.json.",
+    "languages": [
+      "typescript",
+      "javascript",
+      "css",
+      "json",
+      "yaml"
+    ],
+    "frameworks": [
+      "Next.js 12",
+      "React 18",
+      "Plasmic",
+      "antd"
+    ],
+    "analyzedAt": "2026-07-18T16:18:33-03:00",
+    "gitCommitHash": "8506bf80350fcf282f7ba867e2f5696ef67c6b57"
+  },
+  "nodes": [
+    {
+      "id": "document:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "summary": "README padrão do create-plasmic-app: identifica o projeto como scaffold Next.js gerado pelo Plasmic, instruções de dev (yarn dev) e links pra documentação do Plasmic.",
+      "tags": [
+        "documentation",
+        "entry-point"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "package.json",
+      "summary": "Manifesto npm: nome genérico `tmp-cpa` (não renomeado do scaffold do create-plasmic-app). Next.js 12.1.6 + React 18.1 + antd 4 + libs Plasmic (@plasmicapp/cli, host, react-web) + plugins Plasmic (antd, cms, embed-css, nav, react-awesome-reveal, react-parallax-tilt, react-scroll-parallax) + react-slick/slick-carousel para carrosséis.",
+      "tags": [
+        "configuration",
+        "build-system"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:next.config.js",
+      "type": "config",
+      "name": "next.config.js",
+      "filePath": "next.config.js",
+      "summary": "Config Next.js: ESLint ignorado no build (`ignoreDuringBuilds: true`) e `trailingSlash: true` (compatibilidade com export estático/GitHub Pages).",
+      "tags": [
+        "configuration",
+        "build-system"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "tsconfig.json",
+      "summary": "TypeScript target ES5, jsx preserve, strict mode ativado, incremental — config padrão do create-next-app/create-plasmic-app.",
+      "tags": [
+        "configuration",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plasmic.json",
+      "type": "config",
+      "name": "plasmic.json",
+      "filePath": "plasmic.json",
+      "summary": "Config do Plasmic CLI (codegen, plataforma nextjs, scheme css-modules, srcDir components/): lista os projetos Plasmic sincronizados (apoiase_home_mobile_first, apoiase_website_mobile_first, antd, plasmic_basic_components, plasmic_cms, plasmic_embed_css, plasmic_nav, react_awesome_reveal, react_parallax_tilt, react_scroll_parallax_global, react_slick) cada um com projectId + projectApiToken. **Contém 10 tokens de API do Plasmic em texto plano committados no repo** (achado de segurança, ver PRC de Security SEC9 — não rotacionado sem mapear o alcance primeiro).",
+      "tags": [
+        "configuration",
+        "build-system",
+        "security-finding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:plasmic.lock",
+      "type": "config",
+      "name": "plasmic.lock",
+      "filePath": "plasmic.lock",
+      "summary": "Lockfile do Plasmic CLI: versões sincronizadas de cada componente/ícone/token por projeto, usado pelo `plasmic sync` para detectar drift.",
+      "tags": [
+        "configuration",
+        "build-system"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:components/plasmic-tokens.theo.json",
+      "type": "config",
+      "name": "plasmic-tokens.theo.json",
+      "filePath": "components/plasmic-tokens.theo.json",
+      "summary": "Design tokens (cores, espaçamento) exportados do Plasmic Studio no formato Theo, consumidos pelos módulos CSS gerados.",
+      "tags": [
+        "configuration",
+        "design-tokens"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:pages/_app.js",
+      "type": "file",
+      "name": "_app.js",
+      "filePath": "pages/_app.js",
+      "summary": "Custom App do Next.js — ponto de entrada global (wrappers de contexto, CSS global).",
+      "tags": [
+        "entry-point",
+        "nextjs-page"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:pages/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "pages/index.tsx",
+      "summary": "Página inicial: renderiza `PlasmicHome` (Home) envolto nos providers de contexto de variante global (Screen/Primary/UnnamedGlobalGroupOfVariants2) — arquivo skeleton gerado pelo Plasmic, marcado como 'owned by you'.",
+      "tags": [
+        "entry-point",
+        "nextjs-page"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:pages/continua-por-mes.tsx",
+      "type": "file",
+      "name": "continua-por-mes.tsx",
+      "filePath": "pages/continua-por-mes.tsx",
+      "summary": "Página da campanha 'Continua por mês': mesmo padrão do index.tsx, renderiza `PlasmicContinuaPorMes`.",
+      "tags": [
+        "entry-point",
+        "nextjs-page"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:pages/plasmic-host.tsx",
+      "type": "file",
+      "name": "plasmic-host.tsx",
+      "filePath": "pages/plasmic-host.tsx",
+      "summary": "Página `/plasmic-host` exigida pelo Plasmic Studio pra renderizar o canvas de edição (`PlasmicCanvasHost`) — é o app host apontado na config do projeto Plasmic.",
+      "tags": [
+        "entry-point",
+        "nextjs-page"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:pages/api/hello.ts",
+      "type": "file",
+      "name": "api/hello.ts",
+      "filePath": "pages/api/hello.ts",
+      "summary": "Rota de API placeholder do template Next.js (não usada pelo produto).",
+      "tags": [
+        "entry-point",
+        "nextjs-page"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/*.tsx (32 wrappers)",
+      "type": "file",
+      "name": "components/*.tsx",
+      "filePath": "components/",
+      "summary": "32 componentes wrapper 'owned by you' (ex.: Button.tsx, Header.tsx, CampaignCard.tsx, AccordionSlider.tsx) — cada um é um thin wrapper de ~20 linhas em torno do componente Plasmic gerado correspondente (`components/plasmic/apoiase_home_mobile_first/Plasmic<Nome>`), repassando `useBehavior`/props/ref. É a camada onde customização manual de comportamento (handlers, hooks) é esperada, sem tocar no código gerado.",
+      "tags": [
+        "core-logic",
+        "react-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/plasmic/apoiase_home_mobile_first/* (108 arquivos)",
+      "type": "file",
+      "name": "plasmic/apoiase_home_mobile_first/",
+      "filePath": "components/plasmic/apoiase_home_mobile_first/",
+      "summary": "Código 100% gerado pelo Plasmic Studio (blackbox codegen) pro projeto principal `apoiase_home_mobile_first`: um par `Plasmic<Componente>.tsx` + `.module.css` por componente de design (Accordion, Header, CampaignCard, HeroCta, Search, ~30 componentes), mais os providers de variante global (Screen/Primary/UnnamedGlobalGroupOfVariants2) e ~20 ícones SVG como componentes React. Não editar manualmente — regenerado a cada `plasmic sync`.",
+      "tags": [
+        "generated-code",
+        "react-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:components/plasmic/apoiase_website_mobile_first/* (53 arquivos)",
+      "type": "file",
+      "name": "plasmic/apoiase_website_mobile_first/",
+      "filePath": "components/plasmic/apoiase_website_mobile_first/",
+      "summary": "Segundo projeto Plasmic sincronizado neste mesmo repo (`apoiase_website_mobile_first`) — subconjunto menor de componentes (Header, Button, CampaignCard, NavDropdown etc.) com nomes parcialmente sobrepostos ao projeto principal, sugerindo uma versão anterior/paralela do design. Também 100% gerado.",
+      "tags": [
+        "generated-code",
+        "react-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/plasmic/{antd,plasmic_basic_components,plasmic_cms,plasmic_embed_css,plasmic_nav,react_*}/* (9 arquivos)",
+      "type": "file",
+      "name": "plasmic/<pkg>/",
+      "filePath": "components/plasmic/",
+      "summary": "CSS/providers de contexto gerados para os plugins Plasmic instalados (antd, plasmic-basic-components, plasmic-cms, plasmic-embed-css, plasmic-nav, react-awesome-reveal, react-parallax-tilt, react-scroll-parallax, react-slick) — registram os componentes de terceiro no editor visual do Plasmic Studio.",
+      "tags": [
+        "generated-code",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:public/* (assets)",
+      "type": "file",
+      "name": "public/",
+      "filePath": "public/",
+      "summary": "Favicon, ilustrações SVG/JPEG dos dois projetos Plasmic (apoiase_home_mobile_first, apoiase_website_mobile_first) e o vercel.svg padrão do template — assets estáticos servidos pelo Next.js.",
+      "tags": [
+        "asset",
+        "static"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:styles/*.css",
+      "type": "file",
+      "name": "styles/",
+      "filePath": "styles/",
+      "summary": "CSS global do template Next.js padrão (Home.module.css, globals.css) — não gerado pelo Plasmic, sobra do scaffold create-next-app.",
+      "tags": [
+        "styling",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:.eslintrc.json",
+      "type": "config",
+      "name": ".eslintrc.json",
+      "filePath": ".eslintrc.json",
+      "summary": "Config ESLint padrão `next/core-web-vitals` do create-next-app.",
+      "tags": [
+        "configuration",
+        "development"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:.github/workflows/plasmic.yml",
+      "type": "config",
+      "name": "plasmic.yml",
+      "filePath": ".github/workflows/plasmic.yml",
+      "summary": "Workflow acionado por `repository_dispatch` (disparado pelo Plasmic Studio ao publicar): inicializa/sincroniza o projeto Plasmic, builda, publica em `gh-pages` via github-pages-deploy-action, e abre PR se a sincronização criou uma branch nova. **O site é publicado via GitHub Pages, não AWS.**",
+      "tags": [
+        "ci-cd",
+        "deployment"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:.github/workflows/plasmic-push.yml",
+      "type": "config",
+      "name": "plasmic-push.yml",
+      "filePath": ".github/workflows/plasmic-push.yml",
+      "summary": "Workflow acionado por push em `main`: builda (`skip_if_plasmic: true`, ou seja só builda se não há sync pendente) e publica em `gh-pages` — garante que pushes manuais (fora do fluxo Plasmic Studio) também deployem.",
+      "tags": [
+        "ci-cd",
+        "deployment"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "document:README.md",
+      "target": "file:pages/_app.js",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:README.md",
+      "target": "file:pages/index.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:README.md",
+      "target": "file:pages/continua-por-mes.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:README.md",
+      "target": "file:pages/plasmic-host.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:README.md",
+      "target": "file:pages/api/hello.ts",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "config:plasmic.json",
+      "target": "config:plasmic.lock",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "config:plasmic.json",
+      "target": "file:components/plasmic/apoiase_home_mobile_first/* (108 arquivos)",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "config:plasmic.json",
+      "target": "file:components/plasmic/apoiase_website_mobile_first/* (53 arquivos)",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/*.tsx (32 wrappers)",
+      "target": "file:components/plasmic/apoiase_home_mobile_first/* (108 arquivos)",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:pages/index.tsx",
+      "target": "file:components/plasmic/apoiase_home_mobile_first/* (108 arquivos)",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:pages/continua-por-mes.tsx",
+      "target": "file:components/plasmic/apoiase_home_mobile_first/* (108 arquivos)",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:pages/plasmic-host.tsx",
+      "target": "config:plasmic.json",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:.github/workflows/plasmic.yml",
+      "target": "config:plasmic.json",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:.github/workflows/plasmic-push.yml",
+      "target": "config:package.json",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:next.config.js",
+      "target": "config:package.json",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "config:tsconfig.json",
+      "target": "config:package.json",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "config:components/plasmic-tokens.theo.json",
+      "target": "file:components/plasmic/apoiase_home_mobile_first/* (108 arquivos)",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ],
+  "layers": [
+    {
+      "id": "layer:scaffold-governance",
+      "name": "Scaffold e Config",
+      "description": "README + manifests (package.json, next.config.js, tsconfig.json, .eslintrc.json) do template create-plasmic-app, não renomeado (`tmp-cpa`).",
+      "nodeIds": [
+        "document:README.md",
+        "config:package.json",
+        "config:next.config.js",
+        "config:tsconfig.json",
+        "config:.eslintrc.json"
+      ]
+    },
+    {
+      "id": "layer:plasmic-sync",
+      "name": "Sincronização Plasmic",
+      "description": "plasmic.json/plasmic.lock/tokens — a config que liga este repo aos projetos no Plasmic Studio; contém o achado de segurança dos tokens em texto plano.",
+      "nodeIds": [
+        "config:plasmic.json",
+        "config:plasmic.lock",
+        "config:components/plasmic-tokens.theo.json"
+      ]
+    },
+    {
+      "id": "layer:pages",
+      "name": "Páginas Next.js",
+      "description": "As páginas reais do site: Home, campanha Continua por Mês, o host do Plasmic Studio e o Custom App.",
+      "nodeIds": [
+        "file:pages/_app.js",
+        "file:pages/index.tsx",
+        "file:pages/continua-por-mes.tsx",
+        "file:pages/plasmic-host.tsx",
+        "file:pages/api/hello.ts"
+      ]
+    },
+    {
+      "id": "layer:owned-wrappers",
+      "name": "Wrappers 'Owned By You'",
+      "description": "32 componentes que o time pode editar — thin wrappers em torno do código gerado, ponto certo pra lógica/comportamento customizado.",
+      "nodeIds": [
+        "file:components/*.tsx (32 wrappers)"
+      ]
+    },
+    {
+      "id": "layer:plasmic-generated",
+      "name": "Código Gerado pelo Plasmic (blackbox)",
+      "description": "161 arquivos gerados pelo Plasmic Studio via `plasmic sync` — dois projetos de design (home + website mobile-first) mais os plugins de terceiro. Nunca editar manualmente.",
+      "nodeIds": [
+        "file:components/plasmic/apoiase_home_mobile_first/* (108 arquivos)",
+        "file:components/plasmic/apoiase_website_mobile_first/* (53 arquivos)",
+        "file:components/plasmic/{antd,plasmic_basic_components,plasmic_cms,plasmic_embed_css,plasmic_nav,react_*}/* (9 arquivos)"
+      ]
+    },
+    {
+      "id": "layer:assets-styles",
+      "name": "Assets e Estilos",
+      "description": "Assets estáticos (imagens, favicon) e o CSS global remanescente do scaffold create-next-app.",
+      "nodeIds": [
+        "file:public/* (assets)",
+        "file:styles/*.css"
+      ]
+    },
+    {
+      "id": "layer:cicd-deploy",
+      "name": "CI/CD: Deploy via GitHub Pages",
+      "description": "Dois workflows GitHub Actions publicam o site em `gh-pages` — um disparado pelo Plasmic Studio (repository_dispatch), outro por push direto em main.",
+      "nodeIds": [
+        "config:.github/workflows/plasmic.yml",
+        "config:.github/workflows/plasmic-push.yml"
+      ]
+    }
+  ],
+  "tour": [
+    {
+      "order": 1,
+      "title": "Um scaffold create-plasmic-app não renomeado",
+      "description": "README.md e package.json (`name: tmp-cpa`) mostram que este é o scaffold padrão do create-plasmic-app para Next.js — nunca renomeado, sinal de que o setup inicial não foi finalizado como um projeto próprio.",
+      "nodeIds": [
+        "document:README.md",
+        "config:package.json"
+      ]
+    },
+    {
+      "order": 2,
+      "title": "plasmic.json: a ponte com o Plasmic Studio — e um achado de segurança",
+      "description": "plasmic.json lista 11 projetos Plasmic sincronizados (design principal, design secundário, e plugins de terceiro), cada um com projectId + projectApiToken. Os 10 tokens estão em texto plano, committados no repo — acessível a qualquer pessoa com leitura do código. Ver docs/prc/security/PRC.md (SEC9): registrado, não rotacionado sem mapear o alcance de uso primeiro.",
+      "nodeIds": [
+        "config:plasmic.json",
+        "config:plasmic.lock"
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Páginas: Home, campanha e o host do Studio",
+      "description": "index.tsx e continua-por-mes.tsx são páginas 'skeleton' geradas pelo Plasmic que só renderizam o componente PlasmicX correspondente dentro dos providers de variante global. plasmic-host.tsx é a página especial que o Plasmic Studio usa como canvas de edição ao vivo.",
+      "nodeIds": [
+        "file:pages/index.tsx",
+        "file:pages/continua-por-mes.tsx",
+        "file:pages/plasmic-host.tsx"
+      ]
+    },
+    {
+      "order": 4,
+      "title": "A fronteira 'owned by you' vs código gerado",
+      "description": "Os 32 wrappers em components/*.tsx (ex.: Button.tsx) são o único lugar pensado pra edição manual — cada um delega toda a renderização real pro Plasmic<Nome> gerado em components/plasmic/apoiase_home_mobile_first/. Editar dentro de components/plasmic/ é perdido no próximo `plasmic sync`.",
+      "nodeIds": [
+        "file:components/*.tsx (32 wrappers)",
+        "file:components/plasmic/apoiase_home_mobile_first/* (108 arquivos)"
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Dois projetos de design no mesmo repo",
+      "description": "components/plasmic/apoiase_website_mobile_first/ é um segundo projeto Plasmic sincronizado aqui, com nomes de componente parcialmente sobrepostos ao principal (Header, Button, CampaignCard) — indício de uma versão anterior ou de um site irmão gerenciado no mesmo Studio, mas sem página em pages/ que o referencie diretamente neste checkout.",
+      "nodeIds": [
+        "file:components/plasmic/apoiase_website_mobile_first/* (53 arquivos)"
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Deploy: GitHub Pages, não AWS",
+      "description": "Os dois workflows (plasmic.yml disparado pelo Studio, plasmic-push.yml disparado por push em main) publicam sempre em gh-pages via github-pages-deploy-action — não há Lambda, S3 ou CloudFront envolvidos no deploy deste site.",
+      "nodeIds": [
+        "config:.github/workflows/plasmic.yml",
+        "config:.github/workflows/plasmic-push.yml"
+      ]
+    }
+  ]
+}

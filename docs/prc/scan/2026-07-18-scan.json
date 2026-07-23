@@ -1,0 +1,26 @@
+{
+  "repo": "apoiase--home-mobile-first",
+  "date": "2026-07-18",
+  "sources": ["graphify-out/graph.json", ".understand-anything/knowledge-graph.json", "package.json", "plasmic.json", ".github/workflows", "steampipe:aws:sa_automation_ro", "gitleaks"],
+  "claims": [
+    {"file": ".github/workflows/plasmic.yml", "role": "sync+build+deploy to gh-pages on Plasmic Studio dispatch", "status": "confirmed"},
+    {"file": ".github/workflows/plasmic-push.yml", "role": "build+deploy to gh-pages on push to main", "status": "confirmed"}
+  ],
+  "aws_checks": [
+    {"query": "aws_lambda_function name ilike '%home-mobile-first%'", "result_count": 0, "status": "not_found"},
+    {"query": "aws_s3_bucket name ilike '%home-mobile-first%'", "result_count": 0, "status": "not_found"}
+  ],
+  "gitleaks": {
+    "commits_scanned": 12,
+    "findings_head": 10,
+    "findings_history_only": 1,
+    "rule": "generic-api-key",
+    "file": "plasmic.json",
+    "action": "fingerprints_added_to_task_root_gitleaksignore",
+    "rotated": false,
+    "reason_not_rotated": "scope mapping required first; tokens are Plasmic project sync tokens consumed via CI dispatch payload, not read directly from this file by any AWS resource"
+  },
+  "divergences": [
+    {"id": "SEC9", "description": "10 Plasmic projectApiToken values committed in plaintext in plasmic.json (present at HEAD)."}
+  ]
+}
